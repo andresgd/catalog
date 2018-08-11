@@ -1,0 +1,46 @@
+@keyframes effect-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/* elements */
+.App__header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App__intro {
+  font-size: large; }
+
+.App__logo {
+  animation: effect-spin infinite 20s linear;
+  height: 80px; }
+
+.App__title {
+  font-size: 1.5em; }
+
+/* modifiers */
+.App__header--color-red {
+  color: red; }
+
+.App__header--color-blue {
+  color: blue; }
+
+.App__intro--weight-200 {
+  font-weight: 200; }
+
+.App__intro--weight-400 {
+  font-weight: 400; }
+
+.App__intro--weight-600 {
+  font-weight: 600; }
+
+.App {
+  text-align: center; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }

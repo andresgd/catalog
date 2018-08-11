@@ -1,0 +1,6 @@
+@import 'react-md/src/scss/react-md';
+
+@keyframes effect-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
