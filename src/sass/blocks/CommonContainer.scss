@@ -1,0 +1,17 @@
+@import '../variables/globals.scss';
+
+.Common_Container {
+  padding: 0 2rem 0 2rem;
+  text-align: center;
+  &__header {
+
+  }
+
+  &__title {
+    color: $selectables-font-color;
+  }
+
+  &__intro {
+    color: $selectables-font-color;
+  }
+}

@@ -1,0 +1,54 @@
+@import '../variables/globals.scss';
+
+.Product_List {
+  float: right;
+  width: calc(80% - 2.5rem);
+  padding-left: calc(1.25rem - 1px);
+  padding-right: 1.25rem;
+  border-left: 1px solid $background-color;
+  border-left-style: solid;
+  background-color: #fafafa;
+  max-height: calc(100vh - 3rem);
+  overflow: auto;
+  position: relative;
+
+  &__showing_details {
+    color: $selectables-font-color;
+  }
+
+  &__item {
+    background-color: white;
+    padding: 1rem 1.25rem 1rem 1.25rem;
+    margin: 1rem 0 1rem 0;
+    -webkit-box-shadow: 0px 3px 5px 1px rgba(200,200,200,1);
+    -moz-box-shadow: 0px 3px 5px 1px rgba(200,200,200,1);
+    box-shadow: 0px 3px 5px 1px rgba(200,200,200,1);
+
+    &_header {
+      position: relative;
+      display: block;
+    }
+
+    &_title {
+      color: $selectables-font-color;
+    }
+
+    &_subtitle {
+      color: $selectables-font-color;
+      opacity: 0.45;
+      margin-top: -0.85rem;
+    }
+
+    &_image {
+      display:inline-block;
+      text-align: -webkit-center;
+      width: 20%;
+    }
+
+    &_description {
+      color: $selectables-font-color;
+      display:inline-block;
+      width: 70%;
+    }
+  }
+}

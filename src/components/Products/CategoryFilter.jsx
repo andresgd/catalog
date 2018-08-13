@@ -1,14 +1,27 @@
 import React, {Component} from 'react'
 import {NavLink} from 'react-router-dom'
+import {FontAwesomeIcon}  from '@fortawesome/react-fontawesome'
 
-function renderCategoryFilter(name, to,index) {
+function renderCategoryFilter(cat, index) {
   if (index !== 0)
-    return <NavLink key={"cat_" + index} exact to={to} className="Categories__Nav_Link" activeClassName="Categories__Nav_Link--active" >{name}</NavLink>
+    return (
+      <li key={index} className="Categories_Filter__menu_item">
+        <NavLink  exact to={cat.to} className="Categories_Filter__menu_item_link" activeClassName="Categories_Filter__menu_item_link--active" >
+          <FontAwesomeIcon icon={cat.icon} className="Categories_Filter__menu_item_icon"  />
+          <span className="Categories_Filter__menu_item_name">{cat.name}</span>
+        </NavLink>
+      </li>
+    )
   else
     return (
       <React.Fragment key={index}>
-        <NavLink exact to={to} className="Categories__Nav_Link" activeClassName="Categories__Nav_Link--active" >{name}</NavLink>
-        <hr className="Categories__nav_divisor"/>
+        <li className="Categories_Filter__menu_item">
+          <NavLink exact to={cat.to} className="Categories_Filter__menu_item_link" activeClassName="Categories_Filter__menu_item_link--active" >
+            <FontAwesomeIcon icon={cat.icon} className="Categories_Filter__menu_item_icon" />
+            <span className="Categories_Filter__menu_item_name">{cat.name}</span>
+          </NavLink>
+        </li>
+        <hr className="Categories_Filter__menu_divisor"/>
       </React.Fragment>
     )
 }
@@ -19,30 +32,41 @@ class CategoryFilter extends Component {
     const categories = [
       {
         name: 'All',
-        to: '/products'
+        to: '/products',
+        icon: 'bars'
       },
       {
         name: 'Tech',
-        to: '/products/tech'
+        to: '/products/tech',
+        icon: 'laptop'
       },
       {
         name: 'Services',
-        to: '/products/services'
+        to: '/products/services',
+        icon: 'wrench'
       },
       {
         name: 'Office',
-        to: '/products/office'
+        to: '/products/office',
+        icon: 'folder'
       }
-    ];
+    ]
 
     const categoriesRender = categories.map((cat, index) =>
-      renderCategoryFilter(cat.name, cat.to, index)
-    );
+      renderCategoryFilter(cat, index)
+    )
 
     return (
-      <nav className="Categories">
-       {categoriesRender}
-      </nav>
+      <aside className="Categories_Filter">
+        <header className="Categories_Filter__header">
+          <p className="Categories_Filter__header_title">Categories</p>
+        </header>
+        <nav className="Categories_Filter__menu">
+          <ul className="Categories_Filter__menu_list">
+            {categoriesRender}
+          </ul>
+        </nav>
+      </aside>
     )
   }
 
