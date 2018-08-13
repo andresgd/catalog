@@ -1,0 +1,69 @@
+@import '../variables/globals.scss';
+
+.Categories_Filter {
+  float: left;
+  width: 20%;
+
+  &__header {
+    padding-left: 1rem;
+
+    &_title {
+      color: $selectables-font-color;
+      font-weight: bold;
+      opacity: 0.3;
+    }
+  }
+
+  &__menu {
+    text-align:left;
+    vertical-align: middle;
+
+    &_list {
+      list-style-type: none;
+      padding-left: 0rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      display: inline;
+      vertical-align: middle;
+    }
+
+    &_item {
+      padding: 0.3rem 0 0.3rem 0;
+
+      &_icon {
+        color: white;
+        background-color: $background-color-active;
+        padding: 0.8rem;
+        border-radius: 10rem;
+        position: relative;
+        margin: 0.25rem 0.8rem 0.25rem 0.8rem;
+      }
+
+      &_link {
+        text-decoration: none;
+        font-weight: bold;
+        position: relative;
+        color: $selectables-font-color;
+        display: block;
+        line-height: 0rem;
+
+        &--active{
+          background: 100%;
+          background-color: $background-color;
+
+        }
+      }
+
+      &_name {
+        position: relative;
+        bottom: 1rem;
+      }
+    }
+
+    &_divisor {
+
+
+    }
+  }
+
+}

@@ -1,0 +1,39 @@
+@import '../variables/globals.scss';
+
+.NavMenu {
+  background: 100%;
+  background-color: $background-color;
+  height: 3rem;
+  text-align:center;
+  vertical-align: middle;
+  list-style: none;
+
+  &__list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &__item {
+    display: inline-block;
+
+  }
+
+  &__item_link {
+    border-radius: 0.15rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem 1rem calc(1rem - 2px) 1rem;
+    color: $selectables-font-color;
+
+    &--active {
+      background: 100%;
+      background-color: $background-color-active;
+      margin: 1px;
+    }
+  }
+
+}
+
