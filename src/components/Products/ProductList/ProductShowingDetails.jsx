@@ -20,7 +20,7 @@ class ProductShowingDetails extends Component {
   render() {
     return (
       <p className="Product_List__showing_details">
-        Showing <b>{this.state.total}</b> products - Hidden: <b>{this.state.hidden}</b>
+        Showing <b>{this.state.total - this.state.hidden}</b> products - Hidden: <b>{this.state.hidden}</b>
       </p>
     )
   }
