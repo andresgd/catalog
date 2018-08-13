@@ -6,7 +6,7 @@
     "price": "275.00",
     "brand": "Hirthe - Pacocha",
     "stock": 47905,
-    "photo": "http:\/\/lorempixel.com\/640\/480\/nature",
+    "photo": "http:\/\/picsum.photos\/640\/480?image=1",
     "categories": [
       "Tech",
       "Services"
@@ -19,7 +19,7 @@
     "price": "924.00",
     "brand": "Hane LLC",
     "stock": 56717,
-    "photo": "http:\/\/lorempixel.com\/640\/480\/people",
+    "photo": "http:\/\/picsum.photos\/640\/480?image=4",
     "categories": [
       "Tech",
       "Office"
@@ -32,7 +32,7 @@
     "price": "260.00",
     "brand": "Runte Group",
     "stock": 35580,
-    "photo": "http:\/\/lorempixel.com\/640\/480\/sports",
+    "photo": "http:\/\/picsum.photos\/640\/480?image=12",
     "categories": [
       "Office"
     ]
@@ -44,7 +44,7 @@
     "price": "820.00",
     "brand": "Dibbert - Conn",
     "stock": 64372,
-    "photo": "http:\/\/lorempixel.com\/640\/480\/nightlife",
+    "photo": "http:\/\/picsum.photos\/640\/480?image=54",
     "categories": [
       "Services"
     ]
@@ -56,7 +56,7 @@
     "price": "696.00",
     "brand": "Emmerich - Windler",
     "stock": 57621,
-    "photo": "http:\/\/lorempixel.com\/640\/480\/transport",
+    "photo": "http:\/\/picsum.photos\/640\/480?image=43",
     "categories": [
       "Tech",
       "Services"
@@ -69,7 +69,7 @@
     "price": "421.00",
     "brand": "Kuhn and Sons",
     "stock": 64868,
-    "photo": "http:\/\/lorempixel.com\/640\/480\/cats",
+    "photo": "http:\/\/picsum.photos\/640\/480?image=27",
     "categories": [
       "Tech",
       "Office"
@@ -82,7 +82,7 @@
     "price": "406.00",
     "brand": "Halvorson, Kulas and Kihn",
     "stock": 24831,
-    "photo": "http:\/\/lorempixel.com\/640\/480\/city",
+    "photo": "http:\/\/picsum.photos\/640\/480?image=19",
     "categories": [
       "Tech",
       "Services"
@@ -95,7 +95,7 @@
     "price": "619.00",
     "brand": "Okuneva and Sons",
     "stock": 32855,
-    "photo": "http:\/\/lorempixel.com\/640\/480\/cats",
+    "photo": "http:\/\/picsum.photos\/640\/480?image=7",
     "categories": [
       "Tech",
       "Services"
@@ -108,7 +108,7 @@
     "price": "833.00",
     "brand": "Johnson - Emard",
     "stock": 79402,
-    "photo": "http:\/\/lorempixel.com\/640\/480\/transport",
+    "photo": "http:\/\/picsum.photos\/640\/480?image=32",
     "categories": [
       "Office"
     ]
@@ -120,7 +120,7 @@
     "price": "16.00",
     "brand": "Goodwin, Wilderman and Dare",
     "stock": 67534,
-    "photo": "http:\/\/lorempixel.com\/640\/480\/fashion",
+    "photo": "http:\/\/picsum.photos\/640\/480?image=42",
     "categories": [
       "Tech",
       "Office"

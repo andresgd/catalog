@@ -1,12 +1,12 @@
 import React, {Component} from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Switch } from 'react-router-dom'
 /*Container*/
 import Layout from './Layout/index'
 /*Components*/
-import Home from '../Home/index'
-import Clients from '../Clients/index'
-import Contact from '../Contact/index'
-import Products from '../Products/index'
+import Home from './Home/index'
+import Clients from './Clients/index'
+import Contact from './Contact/index'
+import Products from './Products/index'
 import NotFound from './NotFound/index'
 
 class Router extends Component {

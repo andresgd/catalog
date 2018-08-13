@@ -4,10 +4,13 @@ import {NavLink} from 'react-router-dom'
 class Element extends Component {
 
   render() {
+
     return (
-        <NavLink exact to={this.props.to} className="Element__Nav_Link" activeClassName={"Element__Nav_Link--active"} >
+      <li className="NavMenu__item" >
+        <NavLink exact={this.props.exact} to={this.props.to} className="NavMenu__item_link" activeClassName={"NavMenu__item_link--active"} >
           {this.props.name}
         </NavLink>
+      </li>
     )
   }
 
